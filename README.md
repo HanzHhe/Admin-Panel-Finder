@@ -8,9 +8,11 @@ For installation just type:
 
 ```
 apt-get install git python
+```
 ###
 ```
 pip install requests
+```
 ###
 ```
 git clone https://github.com/HanzHhe/Admin-Panel-Finder
