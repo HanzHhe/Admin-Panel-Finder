@@ -1,6 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/python
-
-import threading, requests, sys, os
+import threading, requests, sys
 
 usage = "Usage: python adminpanel-finder.py <HOST/DOMAIN>"
 
@@ -46,6 +44,7 @@ try:
                 fw.write("Url:{} Status-Code:{}\n".format(rg.url, rg.status_code))
         except requests.exceptions.ConnectionError:
           print("Please check your connection")
+          sys.exit()
     ttl = []
     t = threading.Thread(target=brute)
     ttl.append(t)
