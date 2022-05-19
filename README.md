@@ -7,11 +7,11 @@ Admin-Panel-Finder is a tool for brute forcing url/dir writed with Python
 For installation just type:
 
 ```
-apt-get install python
-```
+apt-get install git python
+###
 ```
 pip install requests
-```
+###
 ```
 git clone https://github.com/HanzHhe/Admin-Panel-Finder
 ```
